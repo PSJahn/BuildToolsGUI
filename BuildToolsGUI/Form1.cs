@@ -54,6 +54,7 @@ namespace BuildToolsGUI
             button2.Text = "Complete!";
             button2.ForeColor = Color.Green;
             BuildToolsDetected = true;
+            button1.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
